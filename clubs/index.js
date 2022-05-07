@@ -1,5 +1,5 @@
-$("header").load("/header.html");
-$("footer").load("/footer.html");
+$("header").load("../header.html");
+$("footer").load("../footer.html");
 
 var j=0;
     document.getElementsByName("radio-btn")[j].checked = true;
