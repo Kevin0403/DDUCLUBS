@@ -149,7 +149,10 @@ main{
         width:90vw;
         height:56.25vw;
     }
-    .manual-navigation{margin-top: -4.5vw;}
+    .manual-navigation{
+        margin-top: -4.5vw;
+        width : 90vw;    
+    }
    
     .manual-btn:not(:last-child){
     margin-right: 10px;
