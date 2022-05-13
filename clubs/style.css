@@ -33,7 +33,7 @@ main{
 }
 
 .slider{
-    width: 90vw;
+    width: 800px;
     height: 500px;
     border-radius: 10px;
     overflow: hidden;
@@ -55,7 +55,7 @@ main{
 }
 
 .slide img{
-    width: 90vw;
+    width: 800px;
     height: 500px;
 }
 
@@ -77,7 +77,7 @@ main{
 }
 
 .manual-btn:not(:last-child){
-    margin-right: 20px;
+    margin-right: 40px;
 }
 
 .manual-btn:hover{
@@ -137,6 +137,33 @@ main{
     background-color: #212529;
 }
 
+@media screen and (max-height:800px){
+    .slider{
+        width:90vw;
+        height:56.25vw;
+    }
+    .slides{
+        height:56.25vw;
+    }
+    .slide img{
+        width:90vw;
+        height:56.25vw;
+    }
+    .manual-navigation{margin-top: -4.5vw;}
+   
+    .manual-btn:not(:last-child){
+    margin-right: 10px;
+    }
+    
+    .navigation-auto div:not(:last-child){
+        margin-right: 10px;
+    }
+    .navigation-auto{
+        width:90vw;
+        margin-top:51.75vw;
+    }
+    
+}
 
 footer {
     display: flex;
